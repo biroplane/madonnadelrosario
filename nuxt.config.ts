@@ -15,6 +15,9 @@ export default defineNuxtConfig({
       }
     }
   },
+  nitro: {
+    preset: "netlify"
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
