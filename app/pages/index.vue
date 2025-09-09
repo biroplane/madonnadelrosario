@@ -35,7 +35,7 @@ const activePages = computed(() => pages.value?.filter((page) => !page.meta.skip
         :key="page.id"
         class="mb-12 not-last:border-b border-secondary-200/50 pb-8 relative"
       >
-        <h1 :id="encodeURI(page.id.replace('/', '_'))" class="sticky top-0 py-4 flex">
+        <h1 :id="encodeURI(page.id.replace('/', '_'))" class="sticky top-0 flex">
           <div class="w-10 aspect-square bg-secondary-500" />
 
           <span class="bg-white text-primary-500 px-2">{{ page.title }}</span>

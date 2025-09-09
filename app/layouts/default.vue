@@ -12,9 +12,9 @@ const scrollToTop = () => {
 </script>
 
 <template>
-  <div class="bg-primary-500 grid grid-rows-[4rem_1fr] h-dvh w-dvw overflow-hidden">
-    <div class="flex items-center justify-center h-16">
-      <NuxtImg src="/mdr.png" class="p-4 h-16 min-h-16" />
+  <div class="bg-primary-500 grid grid-rows-[8rem_1fr] h-dvh w-dvw overflow-hidden">
+    <div class="flex items-center justify-center h-full">
+      <NuxtImg src="/logo.png" class="p-4 h-full min-h-16" />
     </div>
     <div
       ref="scrollContainer"
