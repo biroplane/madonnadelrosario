@@ -6,6 +6,15 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/app.css'
   ],
+  app: {
+    head: {
+      title: 'Madonna del Rosario - Terlizzi',
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/madonna.png' }
+      ]
+    }
+  },
+
   content: {
     build: {
       markdown: {
